@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Pruebas de Regresion RV y VI" parallel="tests" thread-count="2">
+
+    <test name="TC_RV">
+        <classes>
+            <class name="rentasVitalicias.TC_RV" />
+        </classes>
+    </test>
+    <test name="TC_VI">
+        <classes>
+            <class name="vidaIndividual.TC_VI" />
+        </classes>
+    </test>
+</suite>
